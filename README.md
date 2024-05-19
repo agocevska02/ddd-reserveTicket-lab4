@@ -1,15 +1,15 @@
 First you need to start zookeeper and then kafka.
 
-Start zookeeper
-Open a new Command Prompt window.
+<h1>Start zookeeper</h1>
+<p>Open a new Command Prompt window.</p>
 
 cd C:/kafka
 
-<b>.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties <b>
+<b>.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties </b>
 This will start Zookeeper with the default settings. Leave this command prompt open.
 
-Start Kafka
-Open a new Command Prompt window.
+<h1>Start Kafka</h1>
+<p></p>Open a new Command Prompt window.</p>
 
 cd C:/kafka
-<b> .\bin\windows\kafka-server-start.bat .\config\server.properties <b>
+<b> .\bin\windows\kafka-server-start.bat .\config\server.properties </b>
